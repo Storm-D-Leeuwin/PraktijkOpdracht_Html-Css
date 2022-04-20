@@ -458,6 +458,8 @@ body {
   background-color: white;
   border: black 3px solid;
   border-radius: 5%;
+  -o-object-fit: cover;
+     object-fit: cover;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
