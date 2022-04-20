@@ -1,0 +1,15 @@
+@import './index/header/textheader';
+@import './index/application/app';
+@import './index/header/header';
+@import './index/logo/logo';
+@import './index/navbar/mixin';
+@import './index/navbar/nav';
+@import './index/mediaqueries/mediaq';
+@import './index/mediaqueries/mediaqnav';
+
+@import './index/article/currentros';
+@import './index/article/history';
+@import './index/footer/footer';
+
+// @import '/other_scss/hisstyles.scss';
+// @import '/other_scss/crstyles.scss';

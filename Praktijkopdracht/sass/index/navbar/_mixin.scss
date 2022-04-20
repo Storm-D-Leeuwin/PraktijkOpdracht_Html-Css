@@ -1,0 +1,19 @@
+@mixin link ($top) {
+    font-size: 3rem;
+    font-weight: 300;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+
+    padding: 0.2rem 2rem;
+    position: absolute;
+    top: $top;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    background-image: linear-gradient(120deg, rgb(32, 32, 32) 0%, rgb(38, 38, 38) 50%, white 50%);
+    background-size: 225%;
+    transition: all .4s;
+
+    box-shadow: rgba(15, 15, 15, 0.25) 0px 54px 55px, rgba(15, 15, 15, 0.12) 0px -12px 30px, rgba(14, 14, 14, 0.12) 0px 4px 6px, rgba(19, 19, 19, 0.17) 0px 12px 13px, rgba(19, 19, 19, 0.09) 0px -3px 5px;
+}

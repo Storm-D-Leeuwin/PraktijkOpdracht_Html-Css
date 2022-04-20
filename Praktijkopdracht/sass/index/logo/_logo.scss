@@ -1,0 +1,19 @@
+.logo-container{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.logo-box {
+    padding: 15px;
+    width: 50%;
+    height: fit-content;
+
+    display: flex;
+}
+
+.logo{
+    height: 50px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    
+}

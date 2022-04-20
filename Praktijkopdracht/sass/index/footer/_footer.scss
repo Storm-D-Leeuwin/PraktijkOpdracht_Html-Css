@@ -1,0 +1,44 @@
+footer {
+    margin-top: 10%;
+    height: 50vh;
+    width: 100%;
+    background-color: black;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+    & h1{
+        color: white;
+    }
+}
+
+.ptn{  
+    &:link,
+    &:visited {
+        text-transform: uppercase;
+        text-decoration: none;
+        padding: 15px;
+        width: 150px;
+        align-self: center;
+        display: inline-block;
+        margin-top: 5%;
+        border-radius: 100px;
+    }
+
+    &:hover {
+        transform: translateY(-3px);
+    }
+
+    &:active {
+        transform: translateY(-1px);
+    }
+}
+
+.ptn-white{
+    background-color: white;
+    color: #777;
+}
+

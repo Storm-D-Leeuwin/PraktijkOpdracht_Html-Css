@@ -1,0 +1,55 @@
+.div-container {
+    height: 95vh;
+    width: 100%;
+    margin-bottom: 5vh;
+
+    background-position: top;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.box1 {
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)) , url(/img/gswback.jpg);
+}
+
+.box2 {
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)) , url(/img/webel.jpg);
+}
+
+.box3 {
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)) , url(/img/chris.jpg);
+}
+
+.box4 {
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)) , url(/img/1980.jpeg);
+}
+
+.box5 {
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)) , url(/img/1965.jpeg);
+}
+
+.box6 {
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)) , url(/img/wilt.jpg);
+}
+
+.box7 {
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)) , url(/img/1940.jpg);
+}
+
+.inside-container {
+    width: 100%;
+    height: min-content;
+
+    display: flex;
+    flex-direction: column;
+
+    color: white;
+}
+
+.title {
+    border-bottom: 1px white solid;
+}

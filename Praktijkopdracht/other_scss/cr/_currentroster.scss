@@ -1,0 +1,82 @@
+@media only screen and (max-width: 1000px) {
+    .bin {
+      background-position: top;
+    }
+  }
+  
+  .bin {
+    height: 95vh;
+    margin-bottom: 5vh;
+    width: 100%;
+    border: 1px black solid;
+    background-size: cover;
+    background-position: left;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+  
+  .div-titel {
+    color: white;
+    font-size: 40px;
+    padding-top: 3%;
+  }
+  
+  .mid-container {
+    height: fit-content;
+    width: min-content;
+    flex-wrap: wrap;
+    display: flex;
+    margin-top: 2%;
+    gap: 3px;
+  }
+  
+  .div-links,
+  .div-rechts {
+    width: 200px;
+    height: 300px;
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+    color: white;
+    font-weight: 300;
+  
+    justify-content: center;
+  }
+  
+  .div-links{
+    border-bottom: 1px white solid;
+  }
+  
+  .div-links li{
+    font-size: 20px;
+  }
+  
+  .div-rechts li{
+    font-size: 15px;
+  }
+  
+
+.scurry {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/limg/scurry.jpg);
+}
+
+.klayt {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/limg/klayt.jpg);
+}
+
+.draymondg {
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(/limg/draymondg.jpg);
+}
+
+.awiggins {
+    background-image: linear-gradient(rgba(0,0,0,0.7) rgba(0,0,0,0.7)), url(/limg/awiggins.jpg);
+}
+
+.klooney {
+    background-image: linear-gradient(rgba(0,0,0,0.7) rgba(0,0,0,0.7)), url(/limg/klooney.jpg);
+}

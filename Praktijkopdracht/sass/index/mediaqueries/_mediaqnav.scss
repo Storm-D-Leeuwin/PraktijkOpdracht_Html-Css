@@ -1,0 +1,115 @@
+@media only screen and (max-width: 1024px) {
+
+    .navigation{
+
+        &__link1{
+            &:link,
+            &:visited{
+                font-size: 2rem;
+            }
+        }
+
+        &__link2{
+            &:link,
+            &:visited{
+                font-size: 2rem;
+            }
+        }
+
+        &__link3{
+            &:link,
+            &:visited{
+                font-size: 2rem;
+            }
+        }
+
+        &__link4{
+            &:link,
+            &:visited{
+                font-size: 2rem;
+            }
+        }
+
+    }
+
+}
+
+@media only screen and (max-width: 724px) {
+
+    .navigation{
+
+        &__link1{
+            &:link,
+            &:visited{
+                font-size: 1.5rem;
+            }
+        }
+
+        &__link2{
+            &:link,
+            &:visited{
+                font-size: 0.75rem;
+            }
+        }
+
+        &__link3{
+            &:link,
+            &:visited{
+                font-size: 1.5rem;
+            }
+        }
+
+        &__link4{
+            &:link,
+            &:visited{
+                font-size: 1.5rem;
+            }
+        }
+
+    }
+
+}
+
+@media only screen and (max-width: 800px) {
+
+    .navigation{
+
+        &__button{
+            height: 4rem;
+            width: 4rem;
+            top: 5%;
+            right: 3%;
+        }
+
+        &__background{
+            height: 2rem;
+            width: 2rem;
+            top: calc(12.5% - 1rem);
+            right: 5%;
+        }
+
+    }
+
+}
+
+@media only screen and (max-width: 400px) {
+
+    .navigation{
+
+        &__button{
+            height: 3rem;
+            width: 3rem;
+            top: 2%;
+            right: 3%;
+        }
+
+        &__background{
+            height: 1rem;
+            width: 1rem;
+            top: 6%;
+            right: 6%;
+        }
+
+    }
+
+}

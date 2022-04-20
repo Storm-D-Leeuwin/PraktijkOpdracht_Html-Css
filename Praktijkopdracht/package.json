@@ -1,0 +1,14 @@
+{
+  "name": "praktijkopdracht_gsw",
+  "version": "1.0.0",
+  "description": "GSW Website",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss styles.css -w"
+  },
+  "author": "Storm",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^7.0.1"
+  }
+}

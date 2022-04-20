@@ -1,0 +1,101 @@
+.navigation{
+    &__checkbox {
+        display: none;
+    }
+
+    &__button {
+        background-color: grey;
+        height: 5rem;
+        width: 5rem;
+        position: fixed;
+        top: 8%;
+        right: 4%;
+        border-radius: 50%;
+        z-index: 3;
+
+        box-shadow: 0 1rem 3rem rgba(black, .1);
+        text-align: center;
+        cursor: pointer;
+    }
+
+    &__background{
+        height: 3.5rem;
+        width: 3.5rem;
+        border-radius: 50%;
+        position: fixed;
+        top: calc(12.5% - 1rem);
+        right: 5%;
+        background-image: linear-gradient(to right,#000,rgb(28, 28, 28));
+        z-index: 1;
+        transition: transform .8s;
+
+        // transform: scale(80);
+    }
+
+    &__nav {
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        right: 0;
+        z-index: 2;
+
+        opacity: 0;
+        width: 0;
+        transition: all .8s;
+    }
+    
+    &___list {
+        position: absolute;
+        list-style: none;
+        text-align: center;
+    }
+
+    &__item {
+        list-style: none;
+    }
+
+    &__link1 {
+        &:link,
+        &:visited {
+        @include link(20%)
+        }
+
+        &:hover,
+        &:active {
+            background-position: 100%;
+            color: #000;
+        }
+    }
+    &__link2 {
+        &:link,
+        &:visited {
+        @include link(40%)
+        }
+        &:hover,
+        &:active {
+            background-position: 100%;
+            color: #000;
+        }
+    }
+    &__link3 {
+        &:link,
+        &:visited {
+        @include link(60%)
+        }
+        &:hover,
+        &:active {
+            background-position: 100%;
+            color: #000;
+        }
+    }
+    
+    //FUNCTION
+    &__checkbox:checked ~ &__background {
+        transform: scale(80);
+    }
+
+    &__checkbox:checked ~ &__nav {
+        opacity: 1;
+        width: 100%;        
+    }
+}

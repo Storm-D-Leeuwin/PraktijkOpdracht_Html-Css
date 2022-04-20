@@ -1,0 +1,108 @@
+article {
+    display: flex;
+    flex-direction: column;
+}
+
+.third-container{
+    height: fit-content;
+    width: 100%;
+
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+
+    align-self: center;
+}
+
+.history {
+    align-self: center;
+    margin-top: 5%;
+    height: fit-content;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-rows: repeat(2, minmax(200px, min-content));
+    grid-auto-rows: minmax(200px, min-content);
+    grid-auto-flow: dense;
+}
+
+.box{
+    border: 1px black solid;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+}
+
+.box-1{
+    grid-row: span 2;
+    grid-column: span 2;
+
+    background-image: linear-gradient(to bottom,rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)) , url(/img/2009-pres.jpeg);
+    background-size: cover;
+}
+
+.big-text {
+    align-self: center;
+}
+
+.small-text {
+    align-self: flex-start;
+}
+
+.box-2{
+    background-image: linear-gradient(to bottom,rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)) , url(/img/webel.jpg);
+    background-size: cover;
+}
+
+.box-3{
+    background-image: linear-gradient(to bottom,rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)) , url(/img/1980.jpeg);
+    background-size: cover;
+}
+
+.box-4 {
+    background-image: linear-gradient(to bottom,rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)) , url(/img/wilt.jpg);
+    background-size: cover;
+}
+
+.box-5 {
+    background-image: linear-gradient(to bottom,rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)) , url(/img/chris.jpg);
+    background-size: cover;
+}
+
+.box-6{
+    background-image: linear-gradient(to bottom,rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)) , url(/img/1965.jpeg);
+    background-size: cover;
+}
+
+.box-7{
+    background-image: linear-gradient(to bottom,rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)) , url(/img/1940.jpg);
+    background-size: cover;
+}
+
+@media only screen and (max-width: 1000px) {
+    .history {
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+        grid-template-rows: repeat(2, minmax(150px, min-content));
+        grid-auto-rows: minmax(150px, min-content);
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .history {
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+        grid-template-rows: repeat(2, minmax(100px, min-content));
+        grid-auto-rows: minmax(100px, min-content);
+    }
+}
+
+@media only screen and (max-width: 219px) {
+    .history {
+        grid-template-columns: repeat(auto-fit, minmax(70px, 1fr));
+        grid-template-rows: repeat(2, minmax(70px, min-content));
+        grid-auto-rows: minmax(70px, min-content);
+    }
+}
